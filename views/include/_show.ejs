@@ -1,0 +1,20 @@
+<!-- This code uses a for loop to iterate over the users array. -->
+<%for(var i = 0; i < users.length; i++) { %>
+
+<tr>
+
+    <!-- Displays the index number of the user -->
+    <td><%=i+1%></td>
+    <td><%=users[i].name%></td>
+    <td><%=users[i].number%></td>
+    <td><%=users[i].email%></td>
+    
+
+    <!-- Delete Button -->
+    <td>
+        <a class="btn border-shadow delete" data-id=<%=users[i]._id%>>
+            <span class="text-gradient"><i class="fas fa-times"></i></span>
+        </a>
+    </td>
+</tr>
+<% } %>
