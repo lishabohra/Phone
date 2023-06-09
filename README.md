@@ -1,4 +1,4 @@
-# Phone
+# PhoneBook Application
 
 This project is a simple web application for managing contacts.
 It is developed using NodeJS, Express and MongoDB atlas.
