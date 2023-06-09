@@ -13,7 +13,7 @@ TO RUN THIS APPLICATION:
 --->npm install express dotenv morgan body-parser path
 
 2)Run by using the command:
---->node server.js (or)  ---> Npm run start
+--->node server.js (or)  ---> npm run start
 
 
 
